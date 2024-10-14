@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="IdYIQHr3beaqZKcTw_ym">
+    <mxGraphModel dx="819" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-1" value="Интернет" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0ZBUqz-HQCsgIAGltMwB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="340" as="sourcePoint" />
+            <mxPoint x="210" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0ZBUqz-HQCsgIAGltMwB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="346" as="sourcePoint" />
+            <mxPoint x="240" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-5" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="450" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-4" value="База данных правил" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="0ZBUqz-HQCsgIAGltMwB-5">
+          <mxGeometry x="30" y="20" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0ZBUqz-HQCsgIAGltMwB-5">
+          <mxGeometry x="120" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-6" value="Внутреняя сеть" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.001;exitY=0.444;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.004;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0ZBUqz-HQCsgIAGltMwB-5" target="0ZBUqz-HQCsgIAGltMwB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="176" y="320" as="sourcePoint" />
+            <mxPoint x="220" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ZBUqz-HQCsgIAGltMwB-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.995;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0ZBUqz-HQCsgIAGltMwB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="350" as="sourcePoint" />
+            <mxPoint x="665" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
