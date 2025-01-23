@@ -1,0 +1,32 @@
+First gardener (thread using array) started to work
+First gardener is about to print the array
+1 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+First gardener finished printing the array
+*********************
+First gardener (thread stopped using array) stopped working
+Second gardener (thread using array) started to work
+Second gardener is about to print the array
+1 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 2 
+*********************
+Second gardener (thread stopped using array) stopped working
+First gardener (thread using array) started to work
+First gardener is about to print the array
+1 1 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 2 
+*********************
+First gardener finished printing the array
+...
+First gardener (thread stopped using array) stopped working
+Second gardener (thread stopped using array) stopped working
+
